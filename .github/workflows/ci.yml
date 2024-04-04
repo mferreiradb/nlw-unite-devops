@@ -31,4 +31,4 @@ jobs:
           
       - name: Push image
         run: |
-          docker push mferreiradb/nlw.service.passin:${{ steps.generate_sha.outputs.sha }} .
+          docker push mferreiradb/nlw.service.passin:${{ steps.generate_sha.outputs.sha }}
